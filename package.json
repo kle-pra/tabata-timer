@@ -1,0 +1,16 @@
+{
+  "name": "tabata-timer",
+  "version": "1.0.0",
+  "description": "Straightforward tabata timer",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tabata",
+    "timer",
+    "javascript"
+  ],
+  "author": "kle-pra",
+  "license": "MIT"
+}
