@@ -15,7 +15,7 @@ document.querySelector('.container')
 
 function initNewTabata() {
   notification('Go', `Round ${stage}. Go.`);
-  progress.style.visibility = 'block';
+  progress.style.display = 'block';
   setInterval(() => {
     round();
     rest();
