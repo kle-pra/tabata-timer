@@ -4,6 +4,7 @@
   "description": "Straightforward tabata timer",
   "main": "app.js",
   "scripts": {
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -12,5 +13,8 @@
     "javascript"
   ],
   "author": "kle-pra",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
+  }
 }
