@@ -1,3 +1,5 @@
+import "./style.css";
+
 const counter = document.getElementById('counter');
 const phase = document.getElementById('phase');
 const progress = document.getElementById('progress');
@@ -7,7 +9,6 @@ let restTimerValue = 11;
 let tabataOn = false;
 let stage = 1;
 let pause = false;
-
 
 document.querySelector('.container')
   .addEventListener('click', toggleStartPause);
